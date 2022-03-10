@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Laborator 3: Formular</h1>
+
+    <form action="URL" method="get">
+
+        <label>Nume: <input type="text" name="nume" /> </label>
+        <br/>
+        <label>Prenume: <input type="text" name="prenume" /> </label>
+        <br/>
+        <label>Data de nastere: <input type="date" name="data" /> </label>
+        <br/>
+        <label>Numar card: <input type="text" name="numar" /> </label>
+        <br/>
+        <label>Cod CVV: <input type="text" name="cod" />  </label>
+        <br/>
+        <label>Alege perioada de abonament:</label>
+        <br/>
+        <input type="text" list="Perioada" />
+        <datalist id="Perioada">
+            <option> 1 luna </option>
+            <option> 3 luni </option>
+            <option> 6 luni </option>
+            <option> 12 luni </option>
+        </datalist>
+        <br/>
+        <label> Sunteti de acord cu termenii si conditiile ? <input type="checkbox"  /> </label>
+        <br/>
+        <label> Doriti sa va abonati la newsletter ? <input type="checkbox" /> </label>
+        <br/>
+        <button>
+            Inregistrare
+        </button>
+
+    </form>
+
+</body>
+</html>
