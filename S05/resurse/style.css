@@ -1,0 +1,29 @@
+body{
+	background-color: white;
+}
+
+h1{
+	color: violet;
+	text-align:	center;
+	border: 3px solid aquamarine;
+	font-style: ;
+}
+
+p{
+	background-color: black;
+	text-align: center ;
+	font-style: italic;
+	color: cyan;
+	margin-top: 120px;
+	margin-right: 100px;
+	margin-bottom: 80px;
+	margin-left: 130px;
+}
+.button{
+	border: none;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	cursor: pointer;
+}
+.button1
